@@ -5,7 +5,17 @@ Created on Sun Jan  6 19:40:38 2019
 @author: M_Ark
 """
 def place_str(place):
-    return f"{place['name']}\n{place['address']}\n{place['phone']}"
+    
+    fields = list()
+    if place["type"].split()[0].lower() not in place['name'].lower():
+        fields.append(place["type"].capitalize())
+    fields += [place["name"], place["address"]]
+    try:
+        fields.append(place["phone"])
+    except KeyError:
+        pass
+    return "\n".join(fields)
+
 
 texts = {"hello": """Привет, это генератор свиданий!
 

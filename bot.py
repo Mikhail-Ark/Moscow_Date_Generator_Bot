@@ -84,7 +84,6 @@ def ask_seq(message):
     elif "случайно" in check:
         task.set_seq(u_id,
             [choice(fun), choice(eat + drink), "загс"])
-        print(task.get_seq(u_id))
         next_step(message, "ready", response)
     else:
         for i in range(len(check)):
