@@ -1,5 +1,7 @@
 # Moscow_Date_Generator_Bot
 Telegram Bot (RU). Asks for starting point and preferences for generating several places for visiting during your rendezvous.
+Currently (15 Jan 2019) deployed.
+http://t.me/Moscow_Date_Generator_Bot
 
 Python, Git, Heroku, Yandex Map API, pipenv, pylint, Jupyter Notebook and libs such as telebot, pandas, sqlite3, requests, re, random.
 
