@@ -13,6 +13,4 @@ Programm has 3 layers:
 There are several obvious potential updates:
   1. Bot's appearance can be more attractive with pictures, diverse texts, and jokes (there is one though, try to choose places randomly)
   2. Programm takes info from two sources (DB and API). I suppose Yandex maps updates faster than data.mos.ru, but considering the main purpose of creating of this bot is to show some basic programming skills, I decided to use both.
-  3. Programm has OOP-styled parts, it gives some space for scaling. 
-
-But it makes sense to transform code a bit for further scaling.
+  3. Programm has OOP-styled parts, it gives some space for scaling. But it makes sense to transform code a bit for further scaling.
